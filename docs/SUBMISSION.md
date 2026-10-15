@@ -18,7 +18,7 @@ inglês, que é o idioma da biblioteca.
 
 ## Checklist antes de enviar
 
-- [ ] Tornar o repositório público (`gh repo edit LabWebGroup/local-addon-view-on-phone --visibility public --accept-visibility-change-consequences`)
+- [x] Repositório público (desde 2026-10-15)
 - [x] Interface em inglês (com português conforme o idioma do sistema)
 - [x] README em inglês, com prints
 - [x] Licença MIT
