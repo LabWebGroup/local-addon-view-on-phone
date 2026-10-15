@@ -1,0 +1,45 @@
+{
+  "name": "local-addon-view-on-phone",
+  "productName": "View on Phone",
+  "version": "1.0.0",
+  "description": "Open any Local site on your phone over Wi-Fi with a fixed address and a QR code. No tunnel, no account, no changes to WordPress.",
+  "author": {
+    "name": "Labweb",
+    "url": "https://labweb.digital"
+  },
+  "license": "MIT",
+  "keywords": [
+    "local-addon",
+    "localwp",
+    "wordpress",
+    "mobile",
+    "qr-code",
+    "wifi"
+  ],
+  "homepage": "https://github.com/LabWebGroup/local-addon-view-on-phone#readme",
+  "bugs": {
+    "url": "https://github.com/LabWebGroup/local-addon-view-on-phone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LabWebGroup/local-addon-view-on-phone.git"
+  },
+  "engines": {
+    "local-by-flywheel": ">=10.0.0"
+  },
+  "main": "lib/main.js",
+  "renderer": "lib/renderer.js",
+  "icon": "assets/icon.svg",
+  "bgColor": "#7D38FF",
+  "files": [
+    "lib",
+    "assets",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node test/ponte.test.js",
+    "pack": "npm test && npm pack"
+  }
+}

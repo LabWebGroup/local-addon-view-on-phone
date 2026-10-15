@@ -1,0 +1,4 @@
+node_modules/
+.DS_Store
+*.log
+local-addon-view-on-phone-*.tgz
